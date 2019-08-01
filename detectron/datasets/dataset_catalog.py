@@ -62,6 +62,12 @@ _DATASETS = {
         _RAW_DIR:
             _DATA_DIR + '/cityscapes/raw'
     },
+    'ubitus_anime2019': {
+        _IM_DIR:
+            _DATA_DIR + '/coco/Ubitus_anime2019',
+        _ANN_FN:
+            _DATA_DIR + '/coco/annotations/Ubitus_anime2019_annotation.json'
+    },
     'coco_2014_train': {
         _IM_DIR:
             _DATA_DIR + '/coco/coco_train2014',
